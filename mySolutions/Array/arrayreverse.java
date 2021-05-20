@@ -7,7 +7,7 @@ public class arrayreverse
 	{
 		System.out.println("The Reversed Array is :");
 		
-		for(int i=4;i>=0;i--) 
+		for(int i=b.length-1;i>=0;i--) 
 		{
 			System.out.print(b[i]+ " ");	
 		}		
@@ -18,11 +18,11 @@ public class arrayreverse
 	{
 		
 		Scanner input = new Scanner(System.in);
-		int a[] = new int[5];
+		int a[] = new int[10];
 				
 		System.out.println("Enter the Array: ");
 		
-		for(int i=0;i<5;i++)
+		for(int i=0;i<a.length;i++)
 		{
 			a[i]= input.nextInt();		
 		}
@@ -30,7 +30,7 @@ public class arrayreverse
 		System.out.println("The Entered Array is :");
 		
 		
-		for(int i=0;i<5;i++) 
+		for(int i=0;i<a.length;i++) 
 		{
 			System.out.print(a[i]+ " ");	
 		}
